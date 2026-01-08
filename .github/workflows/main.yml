@@ -39,6 +39,6 @@ jobs:
         if: always()
         uses: peaceiris/actions-gh-pages@v4.0.0
         with:
-         github_token: ${{ secretes.GITHUB_TOKEN}}
+         github_token: ${{ secretes.NEW_GITHUB_TOKEN}}
          publish_dir: newman/
    
